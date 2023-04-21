@@ -8,7 +8,7 @@ index = 1
         setTimeout(()=> {
         const i = this.index ++
 
-        if(i > 100){
+        if(i > 5){
             this.push(null)
         }else{
             const buf = Buffer.from(String(i))
